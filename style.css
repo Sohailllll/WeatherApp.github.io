@@ -1,0 +1,120 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #e975a8, #726cf8);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 15px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 3px 25px;
+  height: 60px;
+  border-radius: 34px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  padding: 6px;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  cursor: pointer;
+}
+
+button img {
+  height: 20px;
+}
+
+.weather-icon {
+  width: 170px;
+  margin-top: 30px;
+}
+
+.weather h1 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.weather h2 {
+  font-size: 33px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 23px;
+  padding: 0 20px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  height: 41px;
+  margin: 10px;
+}
+
+.col p{
+    font-size: 20px;
+}
+
+.humidity, .wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+/* Responsive design  */
+
+@media screen and (max-width:480px) {
+  .card{
+    width: 77%;
+    margin: 56px auto 0;
+  }
+
+  input {
+    height: 45px;
+    width: 1px;
+  }
+
+  .btn {
+    width: 53px;
+  height: 53px;
+  }
+
+  .col p {
+    font-size: 15px;
+  }
+
+}
